@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --color-theme: #2160c3;
+    --text-theme: #51fe44;
+    --theme-dark:#141629;
+}
+
+.text-theme {
+    color: var(--text-theme);
+}
+.bg-them-dark{
+    background-color: var(--theme-dark);
+}
+.bg-theme {
+    background-color: var(--color-theme);
+}
+
+.nave-hover:hover {
+    color: var(--text-theme) !important;
+    cursor: pointer;
+}
+
+.bg-img-hero {
+    background-image: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.btn-hover:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.btn2-hover:hover {
+    background-color: var(--text-theme);
+    border-color: var(--text-theme);
+}
+.place::placeholder{
+    color: white;
+}
+.f-control-focus:focus{
+    box-shadow: none;
+}
+.bottom-80 {
+    bottom: 80px;
+}

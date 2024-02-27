@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+:root {
+    --green: #09a223;
+    --white: #ffffff;
+    --light-blue: #f3f5fa;
+    --light-gray: #292b29;
+    --bg-img-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.bg-img-color{
+    background-color: var(--bg-img-color);
+}
+.icon{
+    height:60px ;
+}
+
+.text-green {
+    color: var(--green) !important;
+}
+
+.h-350 {
+    height: 350px;
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.fs-0-5 {
+    font-size: 0.75rem !important;
+}
+
+.nave-hover:hover {
+    color: var(--green);
+    cursor: pointer;
+}
+
+.card-text-green-hover:hover {
+    color: var(--green) !important;
+    cursor: pointer;
+}
+
+.bg-green-hover:hover {
+    background-color: var(--green);
+    color: white;
+}
+
+.bg-img1 {
+    background-image: url("imges/slide-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bg-img2 {
+    background-image: url("imges/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bg-img3 {
+    background-image: url("imges/slide-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bg-img4 {
+    background-image: url("imges/contact-section-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.bg-img5 {
+    background-image: url("imges/cta-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.cart-hover:hover {
+    background-color: var(--green);
+    color: white;
+}
+
+.footer-hover:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.btn-hover:hover {
+    background-color: #0a721c;
+
+}
+
+.btn1-hover:hover {
+    background-color: var(--light-gray)
+}
+
+.btn2-hover:hover {
+    background-color: var(--green);
+    color: white !important;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.bg-img-hover:hover {
+    background-image: url("imges/service-grid-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.input-focus:focus {
+    box-shadow: none;
+    border-color: var(--green);
+}

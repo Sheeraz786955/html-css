@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --icon-bg: #159ec0;
+    --them-color: #2c7873;
+    --them-color-dark: #004445;
+}
+
+.color-them {
+    color: var(--them-color);
+}
+
+.bg-them-color {
+    background-color: var(--them-color);
+}
+
+.bg-them-dark {
+    background-color: var(--them-color-dark)
+}
+
+.bg-img-hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url("images/hero-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img1 {
+    background-image: url("images/boy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-light-gray {
+    background-color: #f9f9f9;
+}
+
+.icon-circle {
+    height: 30px;
+    width: 30px;
+    background-color: var(--icon-bg);
+}
+
+.icon-circle:hover {
+    background-color: var(--them-color);
+    cursor: pointer;
+}
+
+.nave-hover:hover {
+    color: var(--them-color) !important;
+}
+
+.btn-bg-them {
+    background-color: var(--them-color);
+}
+
+.btn-hover:hover {
+    color: var(--them-color) !important;
+    border: 1px solid var(--them-color);
+}
+
+.f-control-focus:focus,
+.f-select-focus:focus {
+    box-shadow: none;
+}
+
+.icon-hover:hover {
+    cursor: pointer;
+    color: var(--them-color);
+}

@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Bootstrap CND-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!--CSS Link-->
+    <link rel="stylesheet" href="index.css">
+    <title>Financier</title>
+</head>
+
+<body>
+    <!--Header Start-->
+    <div class="container-fluid bg-green px-0">
+        <div class="container pt-4">
+            <div class="row py-2">
+                <div class="col-lg-2 col-sm-12 col-12">
+                    <img class="img-fluid" src="imges/logo (1).png" alt="">
+                </div>
+                <div class="col-lg-10 col-sm-12 col-12 text-white pt-4 pt-lg-0">
+                    <div class="d-flex flex-wrap justify-content-lg-end">
+                        <div class="row pe-4 pb-4">
+                            <div class="col-auto">
+                                <i class="fa-solid fa-phone fa-lg"></i>
+                            </div>
+                            <div class="col-auto">
+                                <span>+123 4567 889</span><br>
+                                <span>Give us a call</span>
+                            </div>
+                        </div>
+                        <div class="row pe-4 pb-4">
+                            <div class="col-auto">
+                                <i class="fa-regular fa-envelope fa-lg"></i>
+                            </div>
+                            <div class="col-auto">
+                                <span>support@charter.com</span><br>
+                                <span> Mail us</span>
+                            </div>
+                        </div>
+                        <div class="row pb-4">
+                            <div class="col-auto">
+                                <i class="fa-regular fa-calendar-days fa-lg"></i>
+                            </div>
+                            <div class="col-auto">
+                                <span>Mon-Fri: 9 am-7 pm</span><br>
+                                <span>working hours</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid px-0 position-sticky top-0 z-1">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-sm-3 py-2">
+            <div class="container">
+                <button class="navbar-toggler bg-green" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ps-3 ">
+                            <a class="nav-link nave-hover" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link nave-hover" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown ps-3">
+                            <a class="nav-link nave-hover" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item bg-green-hover" href="#">Business Deal</a></li>
+                                <li><a class="dropdown-item bg-green-hover" href="#">All Services</a></li>
+                                <li><a class="dropdown-item bg-green-hover" href="#">Finance Consoling</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link nave-hover" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item dropdown ps-3">
+                            <a class="nav-link nave-hover" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item bg-green-hover" href="#">FAQs</a></li>
+                                <li><a class="dropdown-item bg-green-hover" href="#">Cash Studies</a></li>
+                                <li><a class="dropdown-item bg-green-hover" href="#">Team</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ps-3">
+                            <a class="nav-link nave-hover " href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item bg-green-hover" href="#">Blog 1</a></li>
+                                <li><a class="dropdown-item bg-green-hover" href="#">Blog 2</a></li>
+                                <li><a class="dropdown-item bg-green-hover" href="#">Blog 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link nave-hover" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-block d-sm-none">
+                        <input class="form-control me-2 input-hover input-focus" type="search" id="floatingInput"
+                            placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+                <div class="overflow-auto">
+                    <div class="float-start">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item pt-2">
+                                <i class="fa-brands fa-facebook-f pe-2 logo pointer nave-hover"></i>
+                                <i class="fa-brands fa-twitter pe-2 logo pointer nave-hover "></i>
+                                <i class="fa-brands fa-linkedin pe-2 logo pointer nave-hover"></i>
+                                <i class="fa-brands fa-google-plus-g pe-2 logo pointer nave-hover"></i>
+                                <i class="fa-solid fa-rss pe-3 logo pointer nave-hover"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="float-start d-none d-sm-block">
+                        <form>
+                            <input class="form-control me-2 input-hover input-focus" type="search" id="floatingInput"
+                                placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--Header End-->
+    <!--Slider Start-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active bg-img1">
+                <div class="container py-5">
+                    <div class="row py-5">
+                        <div class="col-12 text-center text-white px-5 py-5">
+                            <h1 class="fw-bolder display-2 pt-5 pb-3">Leader In Business</h1>
+                            <p class="fw-bolder pb-3 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                                illum repellendus,
+                                laudantium iste dolor quos deleniti, eveniet nisi nulla alias molestias temporibus</p>
+                            <button
+                                class="btn bg-green text-white fw-semibold btn-hover btn-lg px-4 rounded-0 mt-3">Contact
+                                Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item bg-img2">
+                <div class="container py-5">
+                    <div class="row py-5">
+                        <div class="col-12 text-center text-white px-5 py-5">
+                            <h1 class="fw-bolder display-2 pt-5 pb-3">Leader In Business</h1>
+                            <p class="fw-bolder pb-3 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                                illum repellendus,
+                                laudantium iste dolor quos deleniti, eveniet nisi nulla alias molestias temporibus</p>
+                            <button
+                                class="btn bg-green text-white fw-semibold btn-hover btn-lg rounded-0 px-4 mt-3">Contact
+                                Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item bg-img3">
+                <div class="container py-5">
+                    <div class="row py-5">
+                        <div class="col-12 text-center text-white px-5 py-5">
+                            <h1 class="fw-bolder display-2 pt-5 pb-3">Leader In Business</h1>
+                            <p class="fw-bolder pb-3 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                                illum repellendus,
+                                laudantium iste dolor quos deleniti, eveniet nisi nulla alias molestias temporibus</p>
+                            <button
+                                class="btn bg-green text-white fw-semibold btn-hover btn-lg rounded-0 px-4 mt-3">Contact
+                                Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Slider End-->
+    <!--Service section start-->
+    <div class="container py-5">
+        <h6 class="text-muted text-center pb-2 pt-5">WHAT WE OFFER</h6>
+        <h1 class="text-center fw-bold pb-5">We Provide The Best Financial <br>Solution For Your Busines
+        </h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+                <div class="card text-center bg-img-hover">
+                    <div class="card-body pb-5">
+                        <i class="fa-regular fa-handshake fa-2xl pt-5 text-green"></i>
+                        <h4 class="card-title fw-semibold pt-4">Insurance</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illum
+                            repellendus,
+                            laudantium iste dolor</p>
+                        <p class="card-text"><small class="text-green fw-bold pointer">Read More</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+                <div class="card text-center bg-img-hover">
+                    <div class="card-body pb-5">
+                        <i class="fa-regular fa-handshake fa-2xl pt-5 text-green"></i>
+                        <h4 class="card-title fw-semibold pt-4 ">Business Plan</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illum
+                            repellendus,
+                            laudantium iste dolor</p>
+                        <p class="card-text"><small class="text-green fw-bold pointer">Read More</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+                <div class="card text-center bg-img-hover">
+                    <div class="card-body pb-5">
+                        <i class="fa-solid fa-chart-simple fa-2xl pt-5 text-green"></i>
+                        <h4 class="card-title fw-semibold pt-4 ">Financing Plan</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illum
+                            repellendus,
+                            laudantium iste dolor</p>
+                        <p class="card-text"><small class="text-green fw-bold pointer">Read More</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-light-blue pt-5">
+        <div class="row px-md-5 pb-5">
+            <div class="col-lg-7 col-sm-12 col-12 pt-4 px-md-5 pe-sm-5 h-350">
+                <iframe class="w-100 h-100" src="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1"></iframe>
+            </div>
+            <div class="col-lg-5 col-sm-12 col-12 pt-5 px-md-3">
+                <p class="pb-0 text-muted">WHAT WE OFFER</p>
+                <h3 class="fw-semibold pb-3">We are leading international consulting firm specializing in financial
+                    investment.</h3>
+                <p class="lh-base pb-3 text-muted">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi archi tecto beatae vitae dicta sunt explicabo. Nemo enim ipsam vo luptatem quia voluptas
+                    sit .</p>
+                <button class="btn btn-lg rounded-0 text-green btn2-hover shadow-lg fs-6">Read More</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+                    <div class="row pb-3">
+                        <div class="col-auto">
+                            <i class="fa-regular fa-bell fa-3x text-green"></i>
+                        </div>
+                        <div class="col ps-sm-4 ps-4">
+                            <h3 class="fw-bold p-0 m-0">450+</h3>
+                            <p> Completed Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+                    <div class="row pb-3">
+                        <div class="col-auto">
+                            <i class="fa-solid fa-people-group fa-3x text-green"></i>
+                        </div>
+                        <div class="col ps-sm-4 ps-2">
+                            <h3 class="fw-bold p-0 m-0">600+</h3>
+                            <p> Skilled Employee</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+                    <div class="row pb-3">
+                        <div class="col-auto">
+                            <i class="fa-regular fa-thumbs-up fa-3x text-green"></i>
+                        </div>
+                        <div class="col ps-sm-4 ps-4">
+                            <h3 class="fw-bold p-0 m-0">100%</h3>
+                            <p>Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+                    <div class="row pb-3">
+                        <div class="col-auto">
+                            <i class="fa-solid fa-trophy fa-3x text-green"></i>
+                        </div>
+                        <div class="col ps-sm-4 ps-3">
+                            <h3 class="fw-bold p-0 m-0">200+</h3>
+                            <p>Award Wins</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Service section end-->
+    <!--Instrument start-->
+    <div class="container py-5">
+        <h6 class="text-muted text-center pb-2 pt-5">INVESTMENTS</h6>
+        <h2 class="text-center fw-semibold pb-5">We provide major companies with a <br> range of finance
+            consulting services
+        </h2>
+        <div class="row py-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="row ps-3 pb-5">
+                    <div class="col-auto icon bg-green pt-1 ps-2">
+                        <i class="fa-solid fa-user-tie fa-3x text-white"></i>
+                    </div>
+                    <div class="col ps-4">
+                        <h5 class="fw-semibold">Business Strategy Planning</h5>
+                        <p class="text-muted pt-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua
+                        </p>
+                    </div>
+                </div>
+                <div class="row pb-5 ps-3 ">
+                    <div class="col-auto icon bg-green pt-1 ps-1">
+                        <i class="fa-solid fa-envelope-open-text fa-3x text-white"></i>
+                    </div>
+                    <div class="col ps-4">
+                        <h5 class="fw-semibold">Insurance Planning</h5>
+                        <p class="text-muted pt-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua
+                        </p>
+                    </div>
+                </div>
+                <div class="row ps-3">
+                    <div class="col-auto icon bg-green pt-1 ps-1">
+                        <i class="fa-solid fa-money-bill-trend-up fa-3x text-white"></i>
+                    </div>
+                    <div class="col ps-4">
+                        <h5 class="fw-semibold">Stock Market Investment</h5>
+                        <p class="text-muted pt-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <img class="img-fluid" src="imges/industry-pic.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-img4 px-0">
+        <div class="bg-img-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-5 pb-lg-5">
+                        <form class="text-white">
+                            <div class="mb-3">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" class="form-control rounded-0  input-focus">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="Email" class="form-control rounded-0 input-focus">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-md-5">
+                        <form class="text-white">
+                            <label class="form-label">Business Type</label>
+                            <select class="form-select rounded-0 input-focus">
+                                <option selected class="">Select</option>
+                                <option value="1">Business type 1</option>
+                                <option value="2">Business type 1</option>
+                                <option value="3">Business type 1</option>
+                            </select>
+                            <button
+                                class=" fw-semibold btn-hover btn bg-green text-white w-100 rounded-0 mt-5">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 pb-lg-5 pt-5 text-white ps-4">
+                        <h2 class="pt-4">Request a call back</h2>
+                        <p class="pb-4">If you want to discuss your business with our fine consultants, please schedule
+                            a meeting
+                            through this contact form</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-light-blue py-5">
+        <h6 class="text-muted text-center pb-2 pt-5">INVESTMENTS</h6>
+        <h3 class="text-center fw-semibold pb-5">We provide major companies with a <br> range of finance
+            consulting services
+        </h3>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 col-sm-12 col-12 pb-4">
+                    <img class="img-fluid shadow-lg" src="imges/img-1.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 pb-4">
+                    <img class="img-fluid shadow-lg" src="imges/img-2.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 pb-4">
+                    <img class="img-fluid shadow-lg" src="imges/img-3.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 pb-4">
+                    <img class="img-fluid shadow-lg" src="imges/img-4.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 pb-4">
+                    <img class="img-fluid shadow-lg" src="imges/img-5.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 pb-4">
+                    <img class="img-fluid shadow-lg" src="imges/img-6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Instrument end-->
+    <!--Our Team start-->
+    <div class="container py-5">
+        <h6 class="text-muted text-center py-2">OUR TEAM</h6>
+        <h3 class="text-center fw-semibold pb-5">People Behind Our Success
+        </h3>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 pb-4">
+                <div class="card cart-hover">
+                    <img src="imges/img-1 (1).jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">Frazar Diamond</h5>
+                        <p class="card-text text-muted">Founder & CEO</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 pb-4">
+                <div class="card cart-hover">
+                    <img src="imges/img-2 (1).jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">Chen Lee</h5>
+                        <p class="card-text text-muted">Co Founder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 pb-4">
+                <div class="card cart-hover">
+                    <img src="imges/img-3 (1).jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">Emma O Breain</h5>
+                        <p class="card-text text-muted">Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="col-lg-3 col-md-4 col-sm-12 col-12 pb-4">
+                <div class="card cart-hover">
+                    <img src="imges/img-4 (1).jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">
+                            Devin nkrum
+                        </h5>
+                        <p class="card-text text-muted">Co Fonder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 col-12 pb-4">
+                <div class="card cart-hover">
+                    <img src="imges/img-5 (1).jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">
+                            Maria de Argun
+                        </h5>
+                        <p class="card-text text-muted">HR</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 col-12 pb-4">
+                <div class="card cart-hover">
+                    <img src="imges/img-6 (1).jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">
+                            Heo Hurt
+                        </h5>
+                        <p class="card-text text-muted">CTO</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12 col-12 pb-4">
+                <div class="card cart-hover">
+                    <img src="imges/img-7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">
+                            Frazar Diamond
+                        </h5>
+                        <p class="card-text text-muted">Fonder & CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-img5 px-0">
+        <div class="bg-img-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center pb-5 pt-4">
+                        <div class="pb-2 pt-5">
+                            <span class="h3 text-white fw-semibold">We are the <span class="text-green">#1 Finance
+                                    company</span> in the world</span>
+                        </div>
+                        <div class="pt-4 pb-4">
+                            <button class=" btn-hover btn bg-green text-white rounded-0 btn-lg">Start Your Project
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Our Team end-->
+    <!--News Section Start-->
+    <div class="container py-5">
+        <h6 class="text-muted text-center py-2 pt-4">LATEST NEWS</h6>
+        <h2 class="text-center fw-semibold pb-5">Blog & Article
+        </h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12 pb-4">
+                <div class="card">
+                    <img src="imges/img-1 (2).jpg" class="card-img-top" alt="...">
+                    <span class="card-header fs-0-5 text-muted bg-white ">
+                        <i class="fa-solid fa-tag card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Business</span>
+                        <i class="fa-solid fa-user ps-2 card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Admin</span>
+                        <i class="fa-regular fa-calendar-days ps-2 card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Jan 24,2024</span>
+                    </span>
+                    <div class="card-body">
+                        <h6 class="fw-semibold card-text-green-hover">Profit by Balancing Your Inventory in as Quick as
+                            12 Months</h6>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12 pb-4">
+                <div class="card">
+                    <img src="imges/img-2 (2).jpg" class="card-img-top" alt="...">
+                    <span class="card-header fs-0-5 text-muted bg-white ">
+                        <i class="fa-solid fa-tag card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Business</span>
+                        <i class="fa-solid fa-user ps-2 card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Admin</span>
+                        <i class="fa-regular fa-calendar-days ps-2 card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Jan 24,2024</span>
+                    </span>
+                    <div class="card-body">
+                        <h6 class="fw-semibold card-text-green-hover">Profit by Balancing Your Inventory in as Quick as
+                            12 Months</h6>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12 pb-4">
+                <div class="card">
+                    <img src="imges/img-3 (2).jpg" class="card-img-top" alt="...">
+                    <span class="card-header fs-0-5 text-muted bg-white ">
+                        <i class="fa-solid fa-tag card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Business</span>
+                        <i class="fa-solid fa-user ps-2 card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Admin</span>
+                        <i class="fa-regular fa-calendar-days ps-2 card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Jan 24,2024</span>
+                    </span>
+                    <div class="card-body">
+                        <h6 class="fw-semibold card-text-green-hover">Profit by Balancing Your Inventory in as Quick as
+                            12 Months</h6>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12 pb-4">
+                <div class="card">
+                    <img src="imges/img-4 (2).jpg" class="card-img-top" alt="...">
+                    <span class="card-header fs-0-5 text-muted bg-white ">
+                        <i class="fa-solid fa-tag card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Business</span>
+                        <i class="fa-solid fa-user ps-2 card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Admin</span>
+                        <i class="fa-regular fa-calendar-days ps-2 card-text-green-hover"></i><span
+                            class="ps-1 card-text-green-hover">Jan 24,2024</span>
+                    </span>
+                    <div class="card-body">
+                        <h6 class="fw-semibold card-text-green-hover">Profit by Balancing Your Inventory in as Quick as
+                            12 Months</h6>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 col-12 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="imges/img-1 (4).jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-12 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="imges/img-2 (4).jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-12 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="imges/img-1 (4).jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-12 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="imges/img-4 (3).jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--News Section End-->
+    <!--Footer Start-->
+    <div class="container-fluid bg-light-blue py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-xl-3 col-lg-6 col-sm-12 col-12 pb-4">
+                    <img src="imges/footer-logo.png" alt="">
+                    <p class="pt-4 text-muted">Lorem ipsum dolor sit amet, consecte tur adipiscing elit, sed do eiusmod
+                        te mpor incididunt ut.mco laboris nisi ut aliquip ex ea commodo.
+                    </p>
+
+                    <div class="row py-4">
+                        <div class="col-auto bg-green ms-2 py-1">
+                            <i class="fa-solid fa-phone text-white"></i>
+                        </div>
+                        <div class="col text-muted pt-1">
+                            +1 (234) 567 890
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto bg-green ms-2 pt-3">
+                            <i class="fa-solid fa-clock-rotate-left text-white"></i>
+                        </div>
+                        <div class="col pt-1 text-muted">
+                            Working Hours: <br>
+                            Mon-Fri (9 am - 8 pm)
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-sm-12 col-12 pb-4">
+                    <h4 class="fw-semibold pb-4">RECENT POSTS</h4>
+                    <span class="pt-2 card-text-green-hover pointer h6">MOCRA Exhibit Restores <br> Art to
+                        Life</span><br>
+                    <span class="text-muted"> 5 hours ago</span>
+                    <div class="pt-5">
+                        <span class="card-text-green-hover pointer h6">Inside the Winter Inn at <br>College
+                            Church</span><br>
+                        <span class="text-muted"> 5 hours ago</span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-sm-12 col-12 pb-4">
+                    <h4 class="fw-semibold pb-4">USEFUL LINKS</h4>
+                    <div class="row">
+                        <div class="col">
+                            <ul class="list-unstyled">
+                                <li class="pointer card-text-green-hover"><a>Home</a></li>
+                                <li class="pointer card-text-green-hover py-3"><a>About</a></li>
+                                <li class="pointer card-text-green-hover"><a>Service</a></li>
+                                <li class="pointer card-text-green-hover py-3"><a>Projects</a></li>
+                                <li class="pointer card-text-green-hover"><a>Career</a></li>
+                                <li class="pointer card-text-green-hover pt-3"><a>Recents News</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="list-unstyled">
+                                <li class="pointer card-text-green-hover"><a>Testimonials</a></li>
+                                <li class="pointer card-text-green-hover py-3"><a>Gallery</a></li>
+                                <li class="pointer card-text-green-hover"><a>Case Studies</a></li>
+                                <li class="pointer card-text-green-hover py-3"><a>Shop</a></li>
+                                <li class="pointer card-text-green-hover"><a>Contact Us</a></li>
+                                <li class="pointer card-text-green-hover pt-3"><a>Privacy Plicy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-sm-12 col-12 pb-4">
+                    <h4 class="fw-semibold pb-4">SUBSCRIBE</h4>
+                    <p class=" text-muted pb-2">Get latest updates and offers. Subscribe your Email for weekly
+                        Newsletter and business tips</p>
+                    <div class="row">
+                        <div class="col-lg-9 col-md-6 col-sm-6 col-10 px-0">
+                            <input type="Email" class="form-control rounded-0 shadow-none input-hover input-focus"
+                                placeholder="Enter your email">
+                        </div>
+                        <div class="col-auto pt-2 bg-green btn-hover">
+                            <i class="fa-solid fa-envelope fa-xl text-white"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-green pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-sm-12 col-12 text-white pb-3">
+                    2018 © All Rights Reserved by <a class="text-white text-decoration-none" href="">Sheeraz Ahmad</a>
+                </div>
+                <div class="col-lg-5 col-sm-12 col-12">
+                    <ul class="d-flex justify-content-around list-unstyled text-white">
+                        <li class="pointer footer-hover">Privacy</li>
+                        <li class="pointer footer-hover">Terms</li>
+                        <li class="pointer footer-hover">Law Guids</li>
+                        <li class="pointer footer-hover">Adverties</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer End-->
+</body>

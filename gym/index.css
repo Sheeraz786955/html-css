@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.bg-footer{
+    background-color: #252233;
+}
+
+:root {
+    --theme-color: #ff2953;
+    --dark-purple: #27223f;
+}
+
+.text-theme {
+    color: var(--theme-color);
+}
+
+.bg-purple {
+    background-color: var(--dark-purple);
+}
+
+.bg-theme {
+    background-color: var(--theme-color);
+}
+
+.icons-bar {
+    width: 250px;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.text-bar {
+    width: 50px;
+}
+
+.bottom-25 {
+    bottom: 25px;
+}
+
+.ancher-hover:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--theme-color);
+    text-decoration-thickness: 2px;
+}
+
+.btn-submit:hover {
+    background-color: var(--theme-color);
+}
+
+.f-control-focus:focus {
+    box-shadow: none;
+}
+
+.bg-img-hero {
+    background-image: url("images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img-us {
+    background-image: url("images/us-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img-healthy {
+    background-image: url("images/healthy-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img-trainer {
+    background-image: url("images/trainer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media(min-width:992px) {
+    .w-lg-75 {
+        width: 75%;
+    }
+}
