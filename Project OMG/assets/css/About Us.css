@@ -16,7 +16,7 @@
     height: 80px;
 }
 .social-bg-img1{
-    background-image: linear-gradient(rgba(0, 11, 73, 0.69), rgba(0, 10, 65, 0.668)), url("/Assets/images/social\ bg.webp");
+    background-image: linear-gradient(rgba(0, 11, 73, 0.69), rgba(0, 10, 65, 0.668)), url("bg-imgs/social\ bg.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

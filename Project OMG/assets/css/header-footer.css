@@ -9,7 +9,7 @@
     --light-color: #b3b3b3;
 }
 .hero-bg{
-    background-image: url('/assets/images/hero-bg.jpg');
+    background-image: url('bg-imgs/hero-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
