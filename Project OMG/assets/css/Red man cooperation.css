@@ -1,0 +1,9 @@
+:root{
+    --bg-orange:rgb(255 171 64);
+ }
+.fs-14{
+    font-size: 14px;
+}
+.influencer-text{
+    color: var(--bg-orange);
+}

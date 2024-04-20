@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bs-orange-color: rgb(255 171 64);
+    --bs-light-color: rgb(207, 205, 223);
+    --light-color: #b3b3b3;
+}
+.hero-bg{
+    background-image: url('/assets/images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+/* for icon */
+.w-30{
+    width: 30px;
+}
+.h-30{
+    height: 30px;
+}
+.bg-orange{
+    background-color: var(--bs-orange-color);
+}
+.btn-warning{
+    background-color: var(--bs-orange-color) !important;
+}
+.text-orange{
+    color: var(--bs-orange-color);
+}
+.bg-lightclr{
+    background-color: var(--bs-light-color) !important;
+}
+.input:focus-visible{
+    outline: none;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.brand-logo:hover{
+    color: var(--bs-orange-color);
+}
+.input-outline:hover{
+    box-shadow: none;
+    border: none;
+}
+.input-outline:focus{
+    box-shadow: none;
+}
+.input-outline:focus-visible{
+    outline: none;
+}
+.btn-togl:focus{
+    box-shadow: none;
+    border: none;
+}
+.fs-14{
+    font-size: 14px;
+    color: var(--light-color);
+}
+.fs-13{
+    font-size: 13px;
+}
+.light-color{
+    color: var(--light-color);
+}
+
+.bg-shadow{
+    box-shadow: 1px 1px 4px 5px rgb(248, 248, 248);
+}

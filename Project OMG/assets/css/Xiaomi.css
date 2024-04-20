@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.fs-14{
+    font-size: 14px;
+}
+.linehight{
+    line-height: 1.6;
+}
+.letter-spacing-2{
+    letter-spacing: 0.2px;
+    word-spacing: 0.1px;
+}
+.letter-spacing-4{
+    letter-spacing: 0.4px;
+}
+.letter-spacing-3{
+    letter-spacing: 0.3px;
+}

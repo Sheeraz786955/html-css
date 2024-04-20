@@ -1,0 +1,16 @@
+
+:root {
+    --bg-orange: rgb(255 171 64);
+}
+.btn-bg{
+    background-color: var(--bg-orange);
+}
+.logo-circle{
+    height: 65px;
+    width: 65px;
+   
+}
+.f-control-focus:focus,
+.f-check-focus:focus {
+    box-shadow: none;
+}

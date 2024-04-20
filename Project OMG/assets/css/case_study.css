@@ -1,0 +1,20 @@
+:root{
+    --light-gray:rgb(197, 197, 197);
+    --bg-orange:rgb(255 171 64);
+    --bs-light-color: rgb(207, 205, 223);
+}
+.btn-bg{
+    background-color: var(--light-gray);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: var(--bg-orange) !important;
+    color: white !important;
+}
+.bg-light-color1{
+    background-color: var(--bs-light-color);
+}
+@media only screen and (max-width: 576px) {
+    .font-8{
+        font-size: 8px;
+    }
+}

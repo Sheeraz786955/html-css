@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.social-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.grad1 {
+    background-image: linear-gradient(to bottom right, rgb(254, 229, 229), rgb(250, 250, 227));
+}
+.brands-icon{
+    width: 230px;
+    height: 80px;
+}
+.social-bg-img1{
+    background-image: linear-gradient(rgba(0, 11, 73, 0.69), rgba(0, 10, 65, 0.668)), url("/Assets/images/social\ bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.border-b:focus{
+    border: none;
+    border-bottom:2px solid blue !important;
+    color: blue !important;
+}
+.border-b:hover{
+    border: none;
+}
+.fs-14{
+    font-size: 14px;
+}
+#MT .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 2px solid blue !important;
+    color: blue !important;
+}
+#case .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+ color: white !important;
+ background-color: var(--bg-orange);
+}
+#MT .nav-link:focus, .nav-link:hover{
+    color: var(--light-color);
+}
+.font-14{
+    font-size: 14px;
+}
+.w-200{
+    width: 200px;
+}
